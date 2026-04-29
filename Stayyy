@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Stay SKZ</title>
+<style>
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0d1b2a, #f77f00);
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+img {
+  max-width: 90%;
+  max-height: 70vh;
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(255, 120, 0, 0.6);
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from { box-shadow: 0 0 20px rgba(255,120,0,0.5); }
+  to { box-shadow: 0 0 50px rgba(255,120,0,1); }
+}
+
+h1 {
+  color: white;
+  margin-top: 20px;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(255,255,255,0.7);
+}
+</style>
+</head>
+
+<body>
+
+<img src="design.jpg" alt="Stay SKZ">
+
+<h1>Official collab with Stray Kids</h1>
+
+</body>
+</html>
